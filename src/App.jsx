@@ -13,8 +13,9 @@ function App() {
         <div>
         <Navigation />
     <Routes>
+    <Route path='/3DShoppingPage'  element={<Home/>}/>
     <Route path='/'  element={<Home/>}/>
-    <Route path='/collection/:category' element={<Collection/>}/>
+    <Route path='/3DShoppingPage/collection/:category' element={<Collection/>}/>
   
     </Routes>
   
