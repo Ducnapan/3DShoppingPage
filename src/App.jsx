@@ -14,8 +14,9 @@ function App() {
         <Navigation />
     <Routes>
    
-    <Route path='/'  element={<Home/>}/>
-    <Route path='/collection/:category' element={<Collection/>}/>
+    <Route path='/' exact element={<Home/>}/>
+    <Route path='/3DShoppingPage/' element={<Home/>}/>
+    <Route path='/3DShoppingPage/collection/:category' element={<Collection/>}/>
   
     </Routes>
   
