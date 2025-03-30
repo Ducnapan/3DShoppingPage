@@ -10,7 +10,7 @@ function Item({name,price,img}){
           
         </div>
         <div className="col-auto d-none d-lg-block px-5">
-          <svg className="bd-placeholder-img border rounded mb-2" width="250" height="200" xmlns="./imgs/lagkapten-adils-desk-white__0977229_pe813472_s5" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"> <image
+          <svg className="bd-placeholder-img mb-2" width="250" height="200" xmlns="./imgs/lagkapten-adils-desk-white__0977229_pe813472_s5" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"> <image
     href={img}
     x="0"
     y="0"

@@ -1,5 +1,5 @@
 import { Canvas } from '@react-three/fiber';
-import { OrbitControls, useGLTF } from '@react-three/drei';
+import {useGLTF } from '@react-three/drei';
 import {useRef,Suspense,useEffect, useState} from 'react';
 import { useFrame } from '@react-three/fiber';
 import { AnimationMixer} from 'three';

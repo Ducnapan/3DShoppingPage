@@ -6,7 +6,7 @@ function Navigation(){
         <div>
      <nav className="navbar align-items-center">
     <div className="container d-flex justify-content-between">
-      <a className="navbar-brand" style={{ fontSize: '50px' }}>ikee.</a>
+      <a className="navbar-brand" style={{ fontSize: '50px' }}>NordicNest</a>
       <ul className="navbar-nav mx-auto flex-row justify-content-center">
         <li className="nav-item mx-4">
           <NavLink className="text-decoration-none text-dark" to="/">Home</NavLink>

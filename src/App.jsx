@@ -13,6 +13,7 @@ function App() {
         <div>
         <Navigation />
     <Routes>
+   
     <Route path='/'  element={<Home/>}/>
     <Route path='/collection/:category' element={<Collection/>}/>
   

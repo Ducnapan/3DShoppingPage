@@ -22,7 +22,8 @@ function Collection(){
     return(
         
         <div className="d-flex flex-column align-items-center my-2">
-        <div className="d-flex mx-5 my-3 align-self-start" style={{width:"100%"}}><h2>collections: {category}</h2></div>
+       
+        <div className="d-flex my-3 align-self-start" style={{width:"100%",marginLeft:"15%"}}><h3>collections: "{category}"</h3></div>
         {rowedItem.map((row, rowIndex) => (
             <div key={rowIndex} className="d-flex justify-content-center mb-3">
                 {row.map((item) => (
