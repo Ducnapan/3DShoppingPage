@@ -1,8 +1,10 @@
+import { NavLink } from 'react-router-dom';
 import './styles/Item.css'
 
-function Item({name,price,img}){
+function Item({id,name,price,img}){
     return(
         <div className='mx-5'>
+          <NavLink to={`/detail/${id}`}>
           <div className="item border rounded overflow-hidden mt-2 shadow-sm">
         <div className="p-4 d-flex flex-column">
           <strong className="d-inline-block mb-2 text-primary-emphasis">{name}</strong>
@@ -20,7 +22,7 @@ function Item({name,price,img}){
   /></svg>
         </div>
       </div>
-
+      </NavLink>
         </div>
     )
 }

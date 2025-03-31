@@ -75,7 +75,7 @@ function AnimatedModel({ path, onTriggerPopUp }) {
   function Banner3D() {
     const [popUp,setPopUp] = useState(false);
     useEffect(()=>{
-      console.log(popUp);
+     
 
     })
     return (
