@@ -13,8 +13,7 @@ function App() {
         <div>
         <Navigation />
     <Routes>
-    <Route path='/' exact element={<Home/>}/>
-    <Route path='/3DShoppingPage/' element={<Home/>}/>
+    <Route path='/' element={<Home/>}/>
     <Route path='/collection/:category' element={<Collection/>}/>
   
     </Routes>
