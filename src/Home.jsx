@@ -6,6 +6,7 @@ function Home(){
     return(
         <div>
             <Banner3D/>
+            <div style={{marginTop:"-15%"}}>
             <FeatureTab
             title = {"Recommend for You"}
             />
@@ -15,6 +16,7 @@ function Home(){
             <FeatureTab
             title = {"Related to your views"}
             />
+            </div>
         </div>
 
     )

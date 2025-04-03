@@ -5,6 +5,7 @@ import Home from './Home'
 import Collection from './Collection'
 import Footer from './Footer'
 import Detail from './Detail'
+import Cart from './Cart'
 
 function App() {
   
@@ -18,6 +19,7 @@ function App() {
     <Route path='/' exact element={<Home/>}/>
     <Route path='/collection/:category' element={<Collection/>}/>
     <Route path='/detail/:id' element={<Detail/>}/>
+    <Route path='/cart' element={<Cart/>}/>
   
     </Routes>
   

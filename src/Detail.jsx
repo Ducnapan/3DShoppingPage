@@ -6,6 +6,7 @@ import FeatureTab from "./FeatureTab";
 function Detail(){
     const {id} = useParams();
     const [flip,setFlip] = useState(true);
+    const [quantity,setQuant] = useState(1)
     return(
         
         <div className="d-flex justify-content-center my-5">
@@ -52,7 +53,7 @@ function Detail(){
             </div>
             <div className="d-flex flex-column text-start">
                 <h4 className="text-success">In stock</h4>
-                <p><strong>Quantity: </strong><input type="number" id="quantity" name="quantity" min="1" max="4" step="1" value={"1"}/></p>
+                <p><strong>Quantity: </strong><input type="number" id="quantity" name="quantity" min="1" max="4" step="1" value={quantity} onChange={(e) => setQuant(e.target.value)}/></p>
                 <div className="btn btn-warning my-2">Add to Cart</div>
                 <div className="btn btn-warning mb-3">Buy Now</div>
             </div>

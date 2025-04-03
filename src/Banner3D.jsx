@@ -5,6 +5,7 @@ import { useFrame } from '@react-three/fiber';
 import { AnimationMixer} from 'three';
 import './styles/Banner3D.css'
 import FeatureItem from './FeatureItem';
+import data from './tempstore.json';
 
 
 // Lighting and environment setup
@@ -74,18 +75,22 @@ function AnimatedModel({ path, onTriggerPopUp }) {
   
   function Banner3D() {
     const [popUp,setPopUp] = useState(false);
+    const [randNum,setRandNum] = useState(0)
+    
     useEffect(()=>{
-     
+      if (popUp) {
+        setRandNum(Math.floor(Math.random() * 30));
+    }
+}, [popUp]); 
 
-    })
     return (
       <div style={{ width: '75vw', height: '100vh' }}>
         <h1 style={{position:'absolute', top:'40%',right:'35%'}} className="slogan">Always on time</h1>
         <FeatureItem
           
-          name={"Chair"}
-          rates = {3.5}
-          img = {"none"}
+          name={data.at(randNum).name}
+          rates = {5}
+          img = {data.at(randNum).img}
           show = {popUp}
           />
         <Canvas camera={{ position: [60, 20, 100], fov: 45 }}>

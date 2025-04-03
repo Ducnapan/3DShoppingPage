@@ -4,6 +4,7 @@
 .down {
     position: relative;
     display: inline-block;
+    cursor: pointer;
   }
   
   .down-content {
@@ -19,5 +20,21 @@
   
   .down:hover .down-content {
     display: block;
+  }
+  
+  .hilight{
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+
+  }
+
+  .hilight:hover{
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    
   }
   

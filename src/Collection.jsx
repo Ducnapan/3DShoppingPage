@@ -28,7 +28,6 @@ function Collection(){
             <div key={rowIndex} className="d-flex justify-content-center mb-3">
                 {row.map((item) => (
                     <Item
-                        key={item.id}
                         id = {item.id}
                         name={item.name}
                         price={item.price}
