@@ -1,0 +1,23 @@
+[
+    {
+        "id":0,
+        "name": "LAGKAPTEN/ADIL",
+        "price":49,
+        "quantity":1,
+        "img": "../imgs/tables/lagkapten-adils-desk-white__0977229_pe813472_s5.avif"
+    },
+    {
+        "id":10,
+        "name": "ADDE",
+        "price":49,
+        "quantity":2,
+        "img":"../imgs/chairs/adde-chair-white__0728280_pe736170_s5.avif"
+    },
+    {
+        "id":20,
+        "name": "LAGKAPTEN",
+        "price":49,
+        "quantity":3,
+        "img":"../imgs/sofas/kivik-3-seat-sofa-with-chaise-longue-tibbleby-beige-grey__1056147_pe848280_s5.avif"
+    }
+]

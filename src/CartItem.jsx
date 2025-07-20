@@ -7,7 +7,7 @@ function CartItem({id,name,price,img, quantity : init}){
     return(
         <div className='mx-5'>
          
-          <div className="item border rounded overflow-hidden mt-2 shadow-sm text-dark">
+          <div className="item border rounded overflow-hidden mt-2 shadow-sm text-dark my-5">
         <div className="p-4 d-flex flex-row align-items-center">
         <div className="col-auto d-none d-lg-block px-5">
           <svg className="bd-placeholder-img mb-2" width="100" height="100" xmlns="./imgs/lagkapten-adils-desk-white__0977229_pe813472_s5" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"> <image
