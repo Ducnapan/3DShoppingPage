@@ -1,5 +1,5 @@
-import { NavLink } from "react-router-dom";
-import './styles/Navigation.css';
+import { NavLink } from "react-router-dom"
+import './styles/Navigation.css'
 const baseUrl = import.meta.env.VITE_APP_BASE_URL;
 
 
