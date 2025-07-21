@@ -7,7 +7,7 @@
         "number_of_ratings": 120,
         "price": 49,
         "category":"tables",
-        "img":"../imgs/tables/lagkapten-adils-desk-white__0977229_pe813472_s5.avif"
+        "img":"/imgs/tables/lagkapten-adils-desk-white__0977229_pe813472_s5.avif"
       },
       {
         "id": 1,
@@ -16,7 +16,7 @@
         "number_of_ratings": 85,
         "price": 297,
         "category":"tables",
-        "img":"../imgs/tables/lagkapten-alex-desk-white__1022432_pe832720_s5.avif"
+        "img":"/imgs/tables/lagkapten-alex-desk-white__1022432_pe832720_s5.avif"
       },
       {
         "id": 2,
@@ -25,7 +25,7 @@
         "number_of_ratings": 200,
         "price": 188,
         "category":"tables",
-        "img":"../imgs/tables/lagkapten-alex-desk-white-stained-oak-effect-white__1022005_pe832395_s5.avif"
+        "img":"/imgs/tables/lagkapten-alex-desk-white-stained-oak-effect-white__1022005_pe832395_s5.avif"
       },
       {
         "id": 3,
@@ -34,7 +34,7 @@
         "number_of_ratings": 45,
         "price": 39,
         "category":"tables",
-        "img":"../imgs/tables/linnmon-adils-table-white__0737165_pe740925_s5.avif"
+        "img":"/imgs/tables/linnmon-adils-table-white__0737165_pe740925_s5.avif"
       },
       {
         "id": 4,
@@ -43,7 +43,7 @@
         "number_of_ratings": 30,
         "price": 199,
         "category":"tables",
-        "img":"../imgs/tables/malm-dressing-table-white__1400013_pe968487_s5.avif"
+        "img":"/imgs/tables/malm-dressing-table-white__1400013_pe968487_s5.avif"
       },
       {
         "id": 5,
@@ -52,7 +52,7 @@
         "number_of_ratings": 45,
         "price": 79,
         "category":"tables",
-        "img":"../imgs/tables/micke-desk-white__0736018_pe740345_s5.avif"
+        "img":"/imgs/tables/micke-desk-white__0736018_pe740345_s5.avif"
       },
       {
         "id": 6,
@@ -61,7 +61,7 @@
         "number_of_ratings": 45,
         "price": 119,
         "category":"tables",
-        "img":"../imgs/tables/micke-desk-white__0736022_pe740349_s5.avif"
+        "img":"/imgs/tables/micke-desk-white__0736022_pe740349_s5.avif"
       },
       {
         "id": 7,
@@ -70,7 +70,7 @@
         "number_of_ratings": 45,
         "price": 269,
         "category":"tables",
-        "img":"../imgs/tables/mittzon-desk-oak-veneer-white__1206049_pe907369_s5.avif"
+        "img":"/imgs/tables/mittzon-desk-oak-veneer-white__1206049_pe907369_s5.avif"
       },
       {
         "id": 8,
@@ -79,7 +79,7 @@
         "number_of_ratings": 45,
         "price": 69,
         "category":"tables",
-        "img":"../imgs/tables/sandsberg-table-black__1074348_pe856162_s5.avif"
+        "img":"/imgs/tables/sandsberg-table-black__1074348_pe856162_s5.avif"
       },{
         "id": 9,
         "name": "UTESPELARE",
@@ -87,7 +87,7 @@
         "number_of_ratings": 45,
         "price": 199,
         "category":"tables",
-        "img":"../imgs/tables/utespelare-gaming-desk-black__0985179_pe816538_s5.avif"
+        "img":"/imgs/tables/utespelare-gaming-desk-black__0985179_pe816538_s5.avif"
       },{
         "id": 10,
         "name": "ADDE",
@@ -95,7 +95,7 @@
         "number_of_ratings": 120,
         "price": 15,
         "category":"chairs",
-        "img":"../imgs/chairs/adde-chair-white__0728280_pe736170_s5.avif"
+        "img":"/imgs/chairs/adde-chair-white__0728280_pe736170_s5.avif"
       },
       {
         "id": 11,
@@ -104,7 +104,7 @@
         "number_of_ratings": 85,
         "price": 99,
         "category":"chairs",
-        "img":"../imgs/chairs/poaeng-armchair-birch-veneer-knisa-light-beige__0571500_pe666933_s5.avif"
+        "img":"/imgs/chairs/poaeng-armchair-birch-veneer-knisa-light-beige__0571500_pe666933_s5.avif"
       },
       {
         "id": 12,
@@ -113,7 +113,7 @@
         "number_of_ratings": 200,
         "price": 49,
         "category":"chairs",
-        "img":"../imgs/chairs/loberget-malskaer-swivel-chair-white__1078458_pe857202_s5.avif"
+        "img":"/imgs/chairs/loberget-malskaer-swivel-chair-white__1078458_pe857202_s5.avif"
       },
       {
         "id": 13,
@@ -122,7 +122,7 @@
         "number_of_ratings": 45,
         "price": 29,
         "category":"chairs",
-        "img":"../imgs/chairs/oestanoe-chair-black-remmarn-dark-grey__1119282_pe873451_s5.avif"
+        "img":"/imgs/chairs/oestanoe-chair-black-remmarn-dark-grey__1119282_pe873451_s5.avif"
       },
       {
         "id": 14,
@@ -131,7 +131,7 @@
         "number_of_ratings": 30,
         "price": 49,
         "category":"chairs",
-        "img":"../imgs/chairs/oerfjaell-swivel-chair-white-vissle-light-grey__0978008_pe813981_s5.avif"
+        "img":"/imgs/chairs/oerfjaell-swivel-chair-white-vissle-light-grey__0978008_pe813981_s5.avif"
       },
       {
         "id": 15,
@@ -140,7 +140,7 @@
         "number_of_ratings": 45,
         "price": 59,
         "category":"chairs",
-        "img":"../imgs/chairs/renberget-swivel-chair-bomstad-black__1020135_pe831794_s5.avif"
+        "img":"/imgs/chairs/renberget-swivel-chair-bomstad-black__1020135_pe831794_s5.avif"
       },
       {
         "id": 16,
@@ -149,7 +149,7 @@
         "number_of_ratings": 45,
         "price": 299,
         "category":"chairs",
-        "img":"../imgs/chairs/dyvlinge-swivel-armchair-kelinge-green__1205904_pe907276_s5.avif"
+        "img":"/imgs/chairs/dyvlinge-swivel-armchair-kelinge-green__1205904_pe907276_s5.avif"
       },
       {
         "id": 17,
@@ -158,7 +158,7 @@
         "number_of_ratings": 45,
         "price": 49,
         "category":"chairs",
-        "img":"../imgs/chairs/teodores-chair-white__0727344_pe735616_s5.avif"
+        "img":"/imgs/chairs/teodores-chair-white__0727344_pe735616_s5.avif"
       },
       {
         "id": 18,
@@ -167,7 +167,7 @@
         "number_of_ratings": 45,
         "price": 299,
         "category":"chairs",
-        "img":"../imgs/chairs/strandmon-wing-chair-nordvalla-dark-grey__0325432_pe517964_s5.avif"
+        "img":"/imgs/chairs/strandmon-wing-chair-nordvalla-dark-grey__0325432_pe517964_s5.avif"
       },{
         "id": 19,
         "name": "LANGFJALL",
@@ -175,7 +175,7 @@
         "number_of_ratings": 45,
         "price": 149,
         "category":"chairs",
-        "img":"../imgs/chairs/langfjaell-conference-chair-gunnared-beige-white__0725410_pe734846_s5.avif"
+        "img":"/imgs/chairs/langfjaell-conference-chair-gunnared-beige-white__0725410_pe734846_s5.avif"
       },{
         "id": 20,
         "name": "KIVIK with 3 seat and chaise lounge",
@@ -183,7 +183,7 @@
         "number_of_ratings": 120,
         "price": 999,
         "category":"sofas",
-        "img":"../imgs/sofas/kivik-3-seat-sofa-with-chaise-longue-tibbleby-beige-grey__1056147_pe848280_s5.avif"
+        "img":"/imgs/sofas/kivik-3-seat-sofa-with-chaise-longue-tibbleby-beige-grey__1056147_pe848280_s5.avif"
       },
       {
         "id": 21,
@@ -192,7 +192,7 @@
         "number_of_ratings": 85,
         "price": 699,
         "category":"sofas",
-        "img":"../imgs/sofas/friheten-corner-sofa-bed-with-storage-skiftebo-dark-grey__0175610_pe328883_s5.avif"
+        "img":"/imgs/sofas/friheten-corner-sofa-bed-with-storage-skiftebo-dark-grey__0175610_pe328883_s5.avif"
       },
       {
         "id": 22,
@@ -201,7 +201,7 @@
         "number_of_ratings": 200,
         "price": 599,
         "category":"sofas",
-        "img":"../imgs/sofas/ektorp-3-seat-sofa-hakebo-dark-grey__1194847_pe902097_s5.avif "
+        "img":"/imgs/sofas/ektorp-3-seat-sofa-hakebo-dark-grey__1194847_pe902097_s5.avif "
       },
       {
         "id": 23,
@@ -210,7 +210,7 @@
         "number_of_ratings": 45,
         "price": 159,
         "category":"sofas",
-        "img":"../imgs/sofas/glostad-2-seat-sofa-knisa-dark-grey__0950864_pe800736_s5.avif "
+        "img":"/imgs/sofas/glostad-2-seat-sofa-knisa-dark-grey__0950864_pe800736_s5.avif "
       },
       {
         "id": 24,
@@ -219,7 +219,7 @@
         "number_of_ratings": 30,
         "price": 499,
         "category":"sofas",
-        "img":"../imgs/sofas/kivik-2-seat-sofa-tibbleby-beige-grey__1056142_pe848270_s5.avif "
+        "img":"/imgs/sofas/kivik-2-seat-sofa-tibbleby-beige-grey__1056142_pe848270_s5.avif "
       },
       {
         "id": 25,
@@ -228,7 +228,7 @@
         "number_of_ratings": 45,
         "price": 1699,
         "category":"sofas",
-        "img":"../imgs/sofas/vimle-4-seat-sofa-with-chaise-longue-gunnared-beige__0514363_pe639433_s5.avif"
+        "img":"/imgs/sofas/vimle-4-seat-sofa-with-chaise-longue-gunnared-beige__0514363_pe639433_s5.avif"
       },
       {
         "id": 26,
@@ -237,7 +237,7 @@
         "number_of_ratings": 45,
         "price": 99,
         "category":"sofas",
-        "img":"../imgs/sofas/kivik-cover-for-compact-2-seat-sofa-tibbleby-beige-grey__1124183_pe875069_s5.avif "
+        "img":"/imgs/sofas/kivik-cover-for-compact-2-seat-sofa-tibbleby-beige-grey__1124183_pe875069_s5.avif "
       },
       {
         "id": 27,
@@ -246,7 +246,7 @@
         "number_of_ratings": 45,
         "price": 599,
         "category":"sofas",
-        "img":"../imgs/sofas/friheten-three-seat-sofa-bed-skiftebo-dark-grey__0525504_pe644868_s5.avif"
+        "img":"/imgs/sofas/friheten-three-seat-sofa-bed-skiftebo-dark-grey__0525504_pe644868_s5.avif"
       },
       {
         "id": 28,
@@ -255,7 +255,7 @@
         "number_of_ratings": 45,
         "price": 699,
         "category":"sofas",
-        "img":"../imgs/sofas/kivik-3-seat-sofa-tibbleby-beige-grey__1056144_pe848277_s5.avif"
+        "img":"/imgs/sofas/kivik-3-seat-sofa-tibbleby-beige-grey__1056144_pe848277_s5.avif"
       },{
         "id": 29,
         "name": "VIMILE with 3 seat",
@@ -263,7 +263,7 @@
         "number_of_ratings": 45,
         "price": 1049,
         "category":"sofas",
-        "img":"../imgs/sofas/vimle-3-seat-sofa-gunnared-beige__0514366_pe639439_s5.avif"
+        "img":"/imgs/sofas/vimle-3-seat-sofa-gunnared-beige__0514366_pe639439_s5.avif"
       }
     ]
   

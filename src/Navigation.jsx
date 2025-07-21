@@ -1,5 +1,7 @@
 import { NavLink } from "react-router-dom";
-import './styles/Navigation.css'
+import './styles/Navigation.css';
+const baseUrl = import.meta.env.VITE_APP_BASE_URL;
+
 
 function Navigation(){
     return(
@@ -19,9 +21,9 @@ function Navigation(){
             <div className="d-flex flex-row"><h6 className="text-decoration-none text-dark ">Collections</h6><i className="mx-1 bi bi-caret-down-fill"></i></div>
             <div className="down-content">
               <div className="d-flex flex-column align-items-start">
-            <NavLink className="text-decoration-none text-dark my-1 border-bottom" to="/collection/tables">Tables</NavLink>
-            <NavLink className="text-decoration-none text-dark my-1 border-bottom" to="/collection/chairs">Chairs</NavLink>
-            <NavLink className="text-decoration-none text-dark my-1 border-bottom" to="/collection/sofas">Sofas</NavLink>
+            <NavLink className="text-decoration-none text-dark my-1 border-bottom" to={`${baseUrl}collection/tables`}>Tables</NavLink>
+            <NavLink className="text-decoration-none text-dark my-1 border-bottom" to={`${baseUrl}collection/chairs`}>Chairs</NavLink>
+            <NavLink className="text-decoration-none text-dark my-1 border-bottom" to={`${baseUrl}collection/sofas`}>Sofas</NavLink>
             </div>
             </div>
                </div>

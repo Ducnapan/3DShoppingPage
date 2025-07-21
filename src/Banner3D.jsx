@@ -7,7 +7,7 @@ import './styles/Banner3D.css'
 import FeatureItem from './FeatureItem';
 import data from './tempstore.json';
 
-
+const baseUrl = import.meta.env.VITE_APP_BASE_URL
 // Lighting and environment setup
 function Lighting() {
     return (
@@ -96,7 +96,7 @@ function AnimatedModel({ path, onTriggerPopUp }) {
         <Canvas camera={{ position: [60, 20, 100], fov: 45 }}>
           <Suspense fallback={null}>
             <Lighting />
-            <AnimatedModel path="/Models/House.glb" onTriggerPopUp = {setPopUp} />
+            <AnimatedModel path={`${baseUrl}/Models/House.glb`} onTriggerPopUp = {setPopUp} />
             
           </Suspense>
         </Canvas>
