@@ -1,12 +1,15 @@
-import Banner3D from "./Banner3D";
+import BannerCollection3D from "./BannerCollection3D";
 import FeatureTab from "./FeatureTab";
 
 
 function Home(){
     return(
         <div>
-            <Banner3D/>
-            <div style={{marginTop:"-15%"}}>
+            <BannerCollection3D/>
+           
+
+            <div className="d-flex flex-column justify-content-center align-self-center mb-5">
+            <div className="d-flex flex-column justify-content-center align-self-center bg-white rounded border-rounded" style={{width:'80%'}}>
             <FeatureTab
             title = {"Recommend for You"}
             />
@@ -18,6 +21,8 @@ function Home(){
             />
             </div>
         </div>
+        </div>
+       
 
     )
 }

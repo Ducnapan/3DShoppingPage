@@ -1,4 +1,5 @@
 import './styles/FeatureItem.css';
+import { NavLink } from "react-router-dom"
 const baseUrl = import.meta.env.VITE_APP_BASE_URL;
 
   
@@ -8,7 +9,9 @@ function FeatureItem({name,rates,img,show}){
     return(
         <div>
         <div className="fpos">
-            {show ? <div className="d-flex flex-column fitems">
+            {show ? 
+            <NavLink to={`${baseUrl}/main`}>
+            <div className="d-flex flex-column fitems">
                 <h2><strong>{name}</strong></h2>
                 <div className="col-auto d-none d-lg-block">
                      <svg className="bd-placeholder-img border rounded mb-2" width="150" height="100" xmlns={newImg} role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><image
@@ -21,7 +24,9 @@ function FeatureItem({name,rates,img,show}){
   /></svg>
                      <h6>{rates}<i className="bi bi-star-fill p-1 text-warning"></i></h6>
                 </div>
-            </div>:<div></div>}
+            </div>
+            </NavLink>
+            :<div></div>}
           
         </div>
     </div>

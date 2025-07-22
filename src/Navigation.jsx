@@ -11,10 +11,10 @@ function Navigation(){
       <a className="navbar-brand" style={{ fontSize: '50px' }}>NordicNest</a>
       <ul className="navbar-nav mx-auto flex-row justify-content-center">
         <li className="nav-item mx-4">
-          <NavLink className="text-decoration-none text-dark" to="/">Home</NavLink>
+          <NavLink className="text-decoration-none text-dark" to={`${baseUrl}`}>Home</NavLink>
         </li>
         <li className="nav-item mx-4">
-        <NavLink className="text-decoration-none text-dark" to="/history">History</NavLink>
+        <NavLink className="text-decoration-none text-dark" to={`${baseUrl}/history`}>History</NavLink>
           </li>
         <li className="nav-item mx-4 dropdown">
            <div className="down">
