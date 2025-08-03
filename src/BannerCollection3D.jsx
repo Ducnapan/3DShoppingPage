@@ -80,8 +80,8 @@ function AnimatedModel({ path, onTriggerPopUp }) {
      
        
 
-      <div className='d-flex justify-content-center align-self-center'>
-      <div className='mt-5' style={{ width: '30vw', height: '40vh',position:'relative',overflow:'hidden'}}>
+      <div className='d-flex justify-content-center align-self-center overflow-hidden'>
+      <div style={{ marginTop:'5em', marginBottom: '-5em', width: '22vw', height: '40vh',position:'relative', overflow:'hidden'}}>
         <FeatureItem
           
           name={data.at(randNum).name}
