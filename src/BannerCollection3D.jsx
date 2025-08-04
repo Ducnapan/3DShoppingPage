@@ -28,7 +28,7 @@ function Lighting() {
 
 
   // Model component to load and animate the .glb file
-function AnimatedModel({ path, onTriggerPopUp }) {
+function AnimatedModel({ path}) {
   const group = useRef();
   const { scene, animations } = useGLTF(path);
   const mixer = useRef();
@@ -65,7 +65,7 @@ function AnimatedModel({ path, onTriggerPopUp }) {
 
   
   function BannerCollection3D() {
-    const [popUp,setPopUp] = useState(false);
+  
     const [randNum,setRandNum] = useState(0)
     
     useEffect(()=>{
