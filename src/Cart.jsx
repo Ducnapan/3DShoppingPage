@@ -1,6 +1,6 @@
 
 import CartItem from "./CartItem";
-import data from "./cart.json"
+import data from "./cart.json";
 
 
 function Cart(){
